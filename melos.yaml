@@ -1,0 +1,17 @@
+name: helpis
+
+repository: https://github.com/hellenic-progressive-internet-services/helpis.git
+
+packages:
+  - packages/**
+
+sdkPath: auto
+
+command:
+  bootstrap:
+    usePubspecOverrides: true
+  version:
+    includeCommitId: true
+    linkToCommits: true
+    workspaceChangelog: true
+    updateGitTagRefs: true
